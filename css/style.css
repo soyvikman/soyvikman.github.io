@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #FFFF99;
+}
+
+.section1{
+ width: 100%;
+ height: 100%;
+ font-family: 'Darker Grotesque', sans-serif;
+ font-size: 1.5rem;
+ text-align: center;
+ padding-top: 2%;
+}
+
+.section1 h1{
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1%;
+}
+
+.section1 img{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+
+.buttons-central{
+    width:40%;
+    margin: 0 auto;
+    font-size: 2rem;
+    padding: 2%;
+}
+
+.button-about-me{
+    margin-top: 2%;
+    margin-bottom:2%;
+    width: 25%;
+    padding-top:2%;
+    padding-bottom:2%;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+
+
+.button-about-me a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.about-me-section{
+width: 100%;
+height: 100%;
+display: flex;
+flex: auto;
+padding-top: 3%;
+justify-content: space-between;
+align-content: baseline;
+}
+
+.about-me-int{
+width: 50%;
+}
+
+.photo-about-me{
+width: 50%;
+}
+
+.about-me-section p {
+    padding: 5%;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 2.2rem;
+}
+
+.about-me-int h2{
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-left: 5%;
+    font-family: 'Darker Grotesque', sans-serif;
+    text-decoration: underline;
+}
+
+.photo-about-me img{
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.button-skills{
+    margin-top: 2%;
+    margin-bottom:2%;
+    width: 25%;
+    padding-top:2%;
+    padding-bottom:2%;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.button-skills a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#text-skills{
+    text-align: center;
+}
+
+#mr-gates{
+    font-weight: bold;
+}
+
+#mr-gate-phrase{
+    font-style: italic;
+}
+
+.portfolio{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.8rem;
+    width: 100%;
+    padding: 3%;
+    display: flex;
+    flex: auto; 
+    text-align: center;  
+}
+.portfolio h3{
+    font-weight: bolder;
+}
+
+.portfolio-inner button{
+    background-color: black;
+    color:white;
+    font-family: 'Darker Grotesque', sans-serif;
+    border:none;
+    font-size: 1.5rem;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.portfolio-inner button:hover{
+    background-color: #FFFF99;
+    color:black;
+    font-family: 'Darker Grotesque', sans-serif;
+    border:2px black solid;
+    font-size: 1.6rem;
+    margin: 2%;
+    padding: 3%;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+#projects-title{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Darker Grotesque', sans-serif;
+
+}
+
+.contact{
+    width: 100%;
+    display: flex;
+    flex: auto;
+    text-align: center;
+
+}
+
+.contact-inner{
+    width: 50%;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 2rem;
+    padding-top: 2%;
+}
+
+#button-send{
+    background-color: black;
+    color: white;
+    padding: 2%;
+    font-size: 1.4rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+}
+
+.contact-inner form input{
+    width: 70%;
+    background-color: #FFFF99;
+    border:2px solid black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+}
+
+.contact-inner form textarea{
+    width: 70%;
+    background-color: #FFFF99;
+    border: 2px solid black;
+    margin-top: 1%;
+}
