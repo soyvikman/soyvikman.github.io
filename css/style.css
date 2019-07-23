@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap');
 
+@media (max-width: 800px){
+    .portfolio {
+        flex-direction: column;
+    }
+    .portfolio-inner{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -134,10 +144,14 @@ width: 50%;
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 1.8rem;
     width: 100%;
-    padding: 5%;
+    padding-top: 5%;
     display: flex;
     flex: auto; 
     text-align: center;  
+}
+
+.portfolio-inner {
+    width: 25%;
 }
 .portfolio h3{
     font-weight: bolder;
@@ -181,7 +195,7 @@ width: 50%;
     display: flex;
     flex: auto;
     text-align: center;
-    padding-top: 5%;
+   
 
 }
 
@@ -216,4 +230,12 @@ width: 50%;
     background-color: #FFFFFF;
     border: 2px solid black;
     margin-top: 1%;
+}
+
+.about-paragraph{
+    text-align: justify;
+}
+
+.give-me-space{
+    padding-top: 5%;
 }
